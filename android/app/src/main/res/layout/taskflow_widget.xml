@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/widget_root"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="10dp"
+    android:background="@drawable/taskflow_widget_bg"
+    android:orientation="vertical"
+    android:padding="14dp">
+
+    <TextView
+        android:id="@+id/widget_list_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="My Tasks"
+        android:textColor="#0F1B14"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/widget_summary"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:text="0/0 done • 0 active"
+        android:textColor="#2E4A3D"
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/widget_tasks_label"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Tasks"
+        android:textColor="#5C6F64"
+        android:textSize="11sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/widget_tasks"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="3dp"
+        android:maxLines="20"
+        android:text="No tasks in this list"
+        android:textColor="#10271E"
+        android:textSize="13sp" />
+
+</LinearLayout>
